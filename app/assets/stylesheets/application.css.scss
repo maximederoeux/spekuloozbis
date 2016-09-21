@@ -13,3 +13,165 @@
  *= require_tree .
  *= require_self
  */
+
+/* font-family: 'Fjalla One';
+font-family: 'Cantarell';
+
+font-family: 'Abel';
+font-family: 'Medula One';
+
+font-family: 'Open Sans';
+font-family: 'Dosis';
+
+font-family: 'Droid Serif';
+font-family: 'Oswald';
+
+font-family: 'Playfair Display';
+font-family: 'Alice'; */
+
+/* TOP SECTION */
+
+.top-container {
+	height: 600px;
+	background-color: #d8f5cd;
+}
+
+.top-title {
+	position: absolute;
+	padding-top: 3.5%;
+	padding-left: 2%;
+	max-width: 40%;
+}
+
+.top-image {
+	position: absolute;
+	padding-top: 0px;
+
+}
+
+/* SIGN UP SECTION */
+.sign-up-container {
+	height: 200px;
+	background-color: #33f9b6;
+}
+
+
+
+/* SECOND SECTION */
+.second-container {
+	height: 600px;
+	background-color: #146f66;
+}
+
+/* CONTACT SECTION */
+.contact-container {
+	height: 600px;
+	background-color: #90a294;
+}
+
+/* FONT ASSOCIATIONS */
+
+h1
+.h1-font-one {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 46px;
+    font-size: 43px;
+    margin: 0 0 23px 0;
+    }
+
+.h1-font-two {
+    font-family: 'Medula One', cursive;
+    font-weight: normal;
+    line-height: 46px;
+    font-size: 52px;
+    margin: 0 0 23px 0;
+    }
+
+.h1-font-three {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    line-height: 46px;
+    font-size: 40px;
+    }
+
+.h1-font-four {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    line-height: 46px;
+    font-size: 43px;
+    margin: 0 0 23px 0;
+    }
+
+.h1-font-five {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 51px;
+    font-size: 46px;
+    text-transform: uppercase;
+    margin: 0 0 23px 0;
+    }
+
+.h2-font-one {
+    font-family: 'Cantarell', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin: 0 0 23px 0;
+    }
+
+.h2-font-three {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
+
+.h2-font-five {
+    font-family: 'Droid Serif', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
+
+.p-font-one {
+    font-family: 'Cantarell', sans-serif;
+    font-size: 17px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
+
+.p-font-two {
+    font-family: 'Abel', sans-serif;
+    font-size: 17px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
+
+.p-font-three {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
+
+.p-font-four {
+    font-family: 'Alice', serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
+
+.p-font-five {
+    font-family: 'Droid Serif', serif;
+    font-size: 15px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
