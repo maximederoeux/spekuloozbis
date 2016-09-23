@@ -33,7 +33,7 @@ font-family: 'Alice'; */
 
 /* NAVBAR */
 
-/* Extra small devices (phones, up to 480px) */
+/* EXTRA SMALL DEVICES */
 @media screen and (max-width: 767px) {
   main {
     max-width: 770px;
@@ -58,8 +58,33 @@ font-family: 'Alice'; */
 
 }
 
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.3em;
+  font-weight: 500; 
+  color: #d8f5cd;
+  padding-top: 0.5%;
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+
 }
-/* Small devices (tablets, 768px and up) */
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Dosis', sans-serif;
+  font-size: 0.7em;
+  font-weight: 200; 
+  color: #d8f5cd;
+  padding-top: 0.5%;
+  float: right;
+  margin-right: 2px;
+  margin-left: 2px;
+
+}
+
+} /* END EXTRA SMALL DEVICES */
+
+/* SMALL DEVICES  */
 @media (min-width: 768px) and (max-width: 991px) {
 main {
     max-width: 1000px;
@@ -72,7 +97,7 @@ main {
     }
 
 div.top-container {
-  height: 400px;
+  height: 800px;
 }
 
 img.top-image {
@@ -82,8 +107,21 @@ img.top-image {
 
 }
 
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Dosis', sans-serif;
+  font-size: 0.7em;
+  font-weight: 200; 
+  color: #d8f5cd;
+  padding-top: 0.5%;
+  float: right;
+  margin-right: 2px;
+  margin-left: 2px;
+
 }
-/* tablets/desktops and up ----------- */
+
+} /* END SMALL DEVICES */
+
+/* TABLETS AND SMALL LAPTOPS */
 @media (min-width: 992px) and (max-width: 1199px) {
 main {
     max-width: 1200px;
@@ -105,10 +143,23 @@ img.top-image {
   padding-top: 2%;
   padding-left:10%;
 
-}
+}  
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Dosis', sans-serif;
+  font-size: 0.8em;
+  font-weight: 300; 
+  color: #d8f5cd;
+  padding-top: 0.5%;
+  float: right;
+  margin-right: 5px;
+  margin-left: 5px;
 
 }
-/* large desktops and up ----------- */
+
+}/* END TABLETS AND SMALL LAPTOPS */
+
+/* LARGE DESKTOPS */
 @media screen and (min-width: 1200px) {
 main {
     max-width: 1350px;
@@ -134,11 +185,24 @@ img.top-image {
 
 }
 
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.3em;
+  font-weight: 500; 
+  color: #d8f5cd;
+  padding-top: 0.5%;
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+
 }
+
+} /* END LARGE DESKTOPS */
 
 .navbar {
   background-color: #146f66;
   height: 50px;
+  width:100%;
 }
 
 .nav .navbar-brand {
