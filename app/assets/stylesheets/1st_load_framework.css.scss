@@ -34,15 +34,18 @@ img {
 
 // apply styles to HTML elements
 // to make views framework-neutral
+
 body {
-  background-color: #ABB7B7;  
+  background-color: #ABB7B7;
+  margin:0;
+  padding:0;
 }
 
 main {
   @extend .container;
   margin-top: 0px; // accommodate the navbar
-  margin-left: auto;
-  margin-right: auto;
+  margin:0;
+  padding:0;
 }
 
 section {

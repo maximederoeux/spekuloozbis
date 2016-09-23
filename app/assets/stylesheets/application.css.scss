@@ -35,20 +35,35 @@ font-family: 'Alice'; */
 
 /* Extra small devices (phones, up to 480px) */
 @media screen and (max-width: 767px) {
+  main {
+    max-width: 770px;
+  }
+
   h1 {
-    font-size:1em;
-    }
-  p {
-    font-size:4px;
+    font-size:100%;
     }
 
+  p {
+    font-size:50%;
+    }
+
+  img.top-image {
+    position: absolute;
+    padding-top: 10%;
+    padding-left:5%;
+  }
+
 .top-container {
-  height: 150px;
+  height: 200px;
+
 }
 
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
+main {
+    max-width: 1000px;
+  }
   h1 {
     font-size:2em;
     }
@@ -56,13 +71,24 @@ font-family: 'Alice'; */
     font-size:10px;
     }
 
-.top-container {
+div.top-container {
   height: 400px;
+}
+
+img.top-image {
+  position: absolute;
+  padding-top: 2%;
+  padding-left:10%;
+
 }
 
 }
 /* tablets/desktops and up ----------- */
 @media (min-width: 992px) and (max-width: 1199px) {
+main {
+    max-width: 1200px;
+  }
+
   h1 {
     font-size:3em;
     }
@@ -70,13 +96,24 @@ font-family: 'Alice'; */
     font-size:12px;
     }
 
-.top-container {
+div.top-container {
   height: 500px;
+}
+
+img.top-image {
+  position: absolute;
+  padding-top: 2%;
+  padding-left:10%;
+
 }
 
 }
 /* large desktops and up ----------- */
 @media screen and (min-width: 1200px) {
+main {
+    max-width: 1350px;
+  }
+
   h1 {
     font-size:3em;
     }
@@ -86,6 +123,15 @@ font-family: 'Alice'; */
 
 .top-container {
   height: 600px;
+
+}
+
+
+img.top-image {
+  position: absolute;
+  padding-top: 2%;
+  padding-left:10%;
+
 }
 
 }
@@ -135,12 +181,7 @@ font-family: 'Alice'; */
 	max-width: 40%;
 }
 
-.top-image {
-	position: absolute;
-	padding-top: 2%;
-  padding-left:10%;
 
-}
 
 /* SIGN UP SECTION */
 .sign-up-container {
